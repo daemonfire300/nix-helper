@@ -1,0 +1,4 @@
+{ ... }:
+{
+  mkLocalhostRef = imageRef: "localhost/${imageRef}";
+}
