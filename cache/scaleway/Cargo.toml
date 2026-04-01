@@ -1,0 +1,4 @@
+[workspace]
+members = ["nix-cache-scaleway"]
+default-members = ["nix-cache-scaleway"]
+resolver = "2"

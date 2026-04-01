@@ -1,0 +1,6 @@
+[package]
+name = "bionic-typst"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

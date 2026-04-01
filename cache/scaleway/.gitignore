@@ -1,0 +1,9 @@
+.envrc
+.direnv/
+bionic-typst/target/
+nix-cache-scaleway/target/
+opentofu/.terraform/
+runtime/*.json
+runtime/public/*.pub
+runtime/secrets/*.sops.yaml
+target/

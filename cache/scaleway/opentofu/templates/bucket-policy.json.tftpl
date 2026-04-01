@@ -1,0 +1,15 @@
+${jsonencode({
+  Version = policy_version
+  Id      = policy_id
+  Statement = [
+    for statement in statements : {
+      Sid    = statement.sid
+      Effect = "Allow"
+      Principal = {
+        SCW = "application_id:${statement.application_id}"
+      }
+      Action   = statement.actions
+      Resource = statement.resources
+    }
+  ]
+})}
